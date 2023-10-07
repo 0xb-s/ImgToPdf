@@ -5,6 +5,7 @@ from PIL import Image
 def get_path():
     return Path('.')
 
+
 def get_files(dir_path):
     files = []
     for file_path in dir_path.iterdir():
